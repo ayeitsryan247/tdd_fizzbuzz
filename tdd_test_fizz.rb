@@ -7,5 +7,8 @@ class TestTddFizz < Minitest::Test
     assert_equal(1, 1)
  end
 
+ def test_end_res_is_array
+   assert_equal(Array, fizzbuzz().class)
+end
 
 end
