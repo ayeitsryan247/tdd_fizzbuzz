@@ -19,8 +19,8 @@ class TestTddFizz < Minitest::Test
     assert_equal(1, fizzbuzz()[0])
   end
 
-  def test_array_3test_array_3rd_elem_returns_mind
-    assert_equal
+  def test_array_3rd_elem_returns_mind
+    assert_equal("mind", fizzbuzz()[2])
   end
 
 end
