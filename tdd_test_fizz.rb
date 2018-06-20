@@ -15,4 +15,12 @@ def test_assert_array_length_is_100
     assert_equal(100, fizbuzz().length)
   end
 
+def test_assert_1test_assert_1st_position
+  assert_equal(1, fizbuzz().first)
+end
+
+def test_assert_third_position_is_mined
+  assert_equal("mined", fizbuzz()[2])
+end
+
 end
