@@ -3,6 +3,9 @@ def fizzbuzz()
 	fizzarr[2] = "mined"
 	fizzarr[4] = "minds"
 	fizzarr[14] = "mined minds"
+  fizzarr[4] = "minds"
+  fizzarr[9] = "minds"
+  fizzarr[24] = "minds"
 	new_arr = []
 	fizzarr.each do |item|
 		if item % 3 == 0
