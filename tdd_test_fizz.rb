@@ -23,4 +23,8 @@ def test_assert_third_position_is_mined
   assert_equal("mined", fizbuzz()[2])
 end
 
+def test_assert_5_position_minds
+  assert_equal("mines", fizzbuzz()[4])
+end
+
 end
